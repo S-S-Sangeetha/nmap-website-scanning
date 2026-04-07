@@ -8,7 +8,7 @@ To scan a target system for open ports and running services.
 - Kali Linux
 
 ## Target
-<23.227.38.65>
+IP address
 
 ## Steps Performed
 1. Perform basic scan
@@ -16,8 +16,8 @@ To scan a target system for open ports and running services.
 3. Detect services and versions
 
 ## Commands Used
-nmap <23.227.38.65>
-nmap -sV <23.227.38.65>
+nmap IP address
+nmap -sV same IP address
 
 ## Output / Results
 - Open ports detected
