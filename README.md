@@ -1,27 +1,19 @@
-# nmap-website-scanning
+# Automated Nmap Scanner
 
-## Objective
-To scan a target system for open ports and running services.
+## The Problem
+Running Nmap scans manually is slow and the output needs to be manually copied and saved. Security analysts need a fast way to scan targets and log the results for reporting.
 
-## Tools Used
-- Nmap
-- Kali Linux
+## The Solution
+This is a Python script that automates Nmap scans (`-sV -F`), prints the results directly to the terminal, and automatically saves the output to a `.txt` file for future reference.
 
-## Target
-IP address
+## How It Works
+- Uses Python's `subprocess` module to execute Nmap securely.
+- Includes error handling (checks if Nmap is installed).
+- Parses the target IP via command-line arguments.
 
-## Steps Performed
-1. Perform basic scan
-2. Identify open ports
-3. Detect services and versions
-
-## Commands Used
-nmap IP address
-nmap -sV same IP address
-
-## Output / Results
-- Open ports detected
-- Service versions identified
-
-## Conclusion
-Nmap is essential for reconnaissance and helps identify potential vulnerabilities.
+## How to Run It
+1. Ensure you have Python 3 and Nmap installed.
+2. Clone this repo.
+3. Run the script:
+   ```bash
+   python3 scanner.py 192.168.1.1
