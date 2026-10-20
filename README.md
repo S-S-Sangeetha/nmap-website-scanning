@@ -16,7 +16,7 @@ This is a Python script that automates Nmap scans (`-sV -F`), prints the results
 2. Clone this repo.
 3. Run the script:
    ```bash
-   python3 scanner.py 192.168.1.1
+   python scanner.py 127.0.0.1
 
 ## What I Learned
 - How to use Python's `subprocess` module to run system commands securely.
