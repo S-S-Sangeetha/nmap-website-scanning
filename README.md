@@ -24,4 +24,4 @@ This is a Python script that automates Nmap scans (`-sV -F`), prints the results
 - How to use command-line arguments (`sys.argv`) to make scripts reusable.
 
 ## Screenshot
-<img width="981" height="545" alt="image" src="https://github.com/user-attachments/assets/cf989b02-b1d1-4cb6-8902-1f0d90069dad" />
+<img width="1192" height="666" alt="image" src="https://github.com/user-attachments/assets/1f9f5d0c-0b66-48e8-86a6-d2732cb30fe0" />
